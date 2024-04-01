@@ -38,4 +38,4 @@ I want to further improve my skills in responsive design and explore more advanc
 
 ## Author
 
-- Frontend Mentor - [@wajasha](https://www.frontendmentor.io/profile/wajasha02)
+- Frontend Mentor - [@wajasha02](https://www.frontendmentor.io/profile/wajasha02)
