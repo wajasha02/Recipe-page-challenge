@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 45rem;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-radius: 1.1rem;
+}
+
+.card > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.750rem;
+    margin-bottom: 1.3rem;
+}
+
+.title-desc h1{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.775rem;
+}
+
+.title-desc p {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+.time-prep {
+    background-color:hsl(330, 100%, 98%);
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.time-prep h3 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
+}
+
+.time-prep li {
+    font-family: "Outfit", sans-serif;
+    padding: 0.357rem;
+    margin-left: 1.5rem;
+}
+.time {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+.ingredients {
+    margin-bottom: 1rem;
+}
+.card h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 0.875rem;
+}
+
+.card li {
+    margin-left: 1.5rem;
+    font-family: "Outfit", sans-serif;
+    padding: 0.345rem;
+} 
+.hrtag {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card ol li {
+    font-family: "Outfit", sans-serif;
+}
+.method{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.para {
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 1.1rem;
+}
+
+.card table {
+    font-family: "Outfit", sans-serif;
+    margin-left: 2rem;
+}
+.nutri {
+    font-family: "Outfit", sans-serif;
+}
+.nutri-values {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
