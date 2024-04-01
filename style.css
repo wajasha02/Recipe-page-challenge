@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,17 +17,16 @@ body{
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 0 auto;
+    width: 100%;
     max-width: 45rem;
     background-color: hsl(0, 0%, 100%);
     padding: 2rem;
     border-radius: 1.1rem;
+    margin-bottom: 2.5rem;
 }
 
-.card > img {
+.card  img {
     width: 100%;
     object-fit: cover;
     border-radius: 0.750rem;
@@ -38,12 +37,14 @@ body{
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 0.775rem;
+    color:hsl(24, 5%, 18%);
 }
 
 .title-desc p {
     font-family: "Outfit", sans-serif;
     font-size: 16px;
     margin-bottom: 2rem;
+    color: hsl(30, 10%, 34%);
 }
 .time-prep {
     background-color:hsl(330, 100%, 98%);
@@ -60,54 +61,115 @@ body{
     font-family: "Outfit", sans-serif;
     padding: 0.357rem;
     margin-left: 1.5rem;
+     color: hsl(30, 10%, 34%);
 }
-.time {
+
+strong {
     font-family: "Outfit", sans-serif;
     font-weight: 600;
-    color: #000;
+    color: hsl(30, 10%, 34%);
 }
+
 .ingredients {
     margin-bottom: 1rem;
 }
-.card h2 {
+h2 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     color: hsl(14, 45%, 36%);
     margin-bottom: 0.875rem;
+    font-size: 1.5rem;
 }
 
-.card li {
+
+ul li {
     margin-left: 1.5rem;
     font-family: "Outfit", sans-serif;
     padding: 0.345rem;
+    color: hsl(30, 10%, 34%);
+    
 } 
-.hrtag {
+li::marker {
+    color: hsl(14, 45%, 36%);
+}
+  
+hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-.card ol li {
-    font-family: "Outfit", sans-serif;
+    border: none;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 .method{
+    margin-bottom: 1rem;
+}
+.method ol li {
+    margin-left: 1.5rem;
     font-family: "Outfit", sans-serif;
-    font-weight: 600;
-    color: #000;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.5rem;
 }
 
 .para {
     font-family: "Outfit", sans-serif;
     margin-bottom: 1.1rem;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
 }
 
-.card table {
+
+.nutrition-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left; 
+  }
+  
+  th {
     font-family: "Outfit", sans-serif;
-    margin-left: 2rem;
-}
-.nutri {
-    font-family: "Outfit", sans-serif;
-}
-.nutri-values {
-    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    padding-left: 1.25rem; 
+    color: hsl(30, 10%, 34%);
+  }
+  tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    height: 2.8rem; 
+  }
+
+  td {
     font-family: "Outfit", sans-serif;
     font-weight: 600;
-}
+    color: hsl(14, 45%, 36%);
+    font-size: 0.9rem;
+  }
+  footer {
+    bottom: 0;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width: 767px) {
+    body {
+      padding: 0;
+    }
+  
+    .card {
+      max-width: none;
+      border-radius: 0;
+      padding: 0;
+    }
+    .card img {
+        border-radius: 0;
+        width: 100%;
+      }
+  
+    .content {
+      padding: 0.875rem;
+    }
+  }
